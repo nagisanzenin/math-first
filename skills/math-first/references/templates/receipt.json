@@ -1,0 +1,22 @@
+{
+  "claim": "false alarm rate of rule R on the null, per decision",
+  "status": "measured",
+  "value": 0.0212,
+  "interval": { "method": "Clopper–Pearson, two-sided", "conf": 0.95, "low": 0.0170, "high": 0.0263 },
+  "n": 4000,
+  "events": 85,
+  "unit": "fraction of decisions",
+  "null_or_effect": "null: no change applied; the two arms are exchangeable",
+  "model": "synthetic turns; see the brief's assumptions A1-A3",
+  "code_under_test": "the real implementation, not a copy",
+  "command": "python3 sims/null_rate.py --runs 4000 --seed 7",
+  "commit": "<git sha of the code under test>",
+  "dirty": false,
+  "machine": "<hardware model, CPU, OS>",
+  "runtime": "<language and library versions>",
+  "seed": 7,
+  "date": "YYYY-MM-DD",
+  "duration_s": 0,
+  "artifacts": ["<path to the raw output, with its sha256>"],
+  "notes": "Example values only. Interval from: python3 mf.py binom -k 85 -n 4000"
+}

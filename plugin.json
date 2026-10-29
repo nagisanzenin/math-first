@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "math-first",
+  "description": "Design discipline for coding agents: name the mathematical object before writing code, make the math the spec, borrow models from the sciences, measure where you are and the null, build the smallest thing that meets the bound, and prove it holds. Includes a stdlib-only exact-statistics CLI."
+}
