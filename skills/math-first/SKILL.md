@@ -5,6 +5,8 @@ description: Math-first design discipline. Before writing code, name the mathema
 
 # Math First
 
+*Name the math. Then write the code.*
+
 **Before writing code, find the mathematical object the problem really is. Make the math the spec. Borrow models
 from the sciences. Measure where you are. Build the smallest thing that meets the bound. Prove it holds.**
 

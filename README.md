@@ -1,6 +1,8 @@
 # Math First
 
-**A skill that makes your coding agent find the mathematical object a problem really is before it writes code, then
+*Name the math. Then write the code.*
+
+**A skill for math-first development: it makes your coding agent find the mathematical object a problem really is before it writes code, then
 make the math the spec: named assumptions, a known bound, a measured baseline and null case, the smallest build that
 meets the bound, and tests that prove it holds.**
 
